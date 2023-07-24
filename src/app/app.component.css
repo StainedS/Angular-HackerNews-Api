@@ -1,11 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-$mobile-only: "only screen and (max-width : 768px)";
-
 body {
   margin-bottom: 0;
-
-  @media #{$mobile-only} {
+}
+@media only screen and (max-width : 768px) {
+  body {
     margin: 0;
   }
 }
@@ -16,12 +14,13 @@ body {
   width: 85%;
   min-height: 80px;
   margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   height: 100%;
-
-   @media #{$mobile-only} {
+}
+@media only screen and (max-width : 768px) {
+  #wrapper {
     width: 100%;
     background-color: #fff;
   }
-}
+}/*# sourceMappingURL=app.component.css.map */
