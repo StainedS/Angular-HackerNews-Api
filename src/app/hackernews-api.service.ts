@@ -12,7 +12,7 @@ export class HackernewsApiService {
   baseURL: string;
 
   constructor(private http:HttpClient) {
-    this.baseURL ='http://api.hackerwebapp.com';
+    this.baseURL ='https://api.hackerwebapp.com';
    }
 
   fetchStories(storyType : string , page : number): Observable<any> {
